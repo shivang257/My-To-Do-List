@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <h2 style="margin:5px">My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+        <li class="checked">Read Books</li>
+        <li>Practice Competetive Programming</li>
+        <li>Go To Gym</li>
+        <li class="checked">Buy Some Food</li>
+        <li>Sleep At Night</li>
+        <li>Play Some Games</li>
+        <li>Learn New Skill</li>
+    </ul>
+    <button type="button" id="clear-list" onclick="removeAll()">Remove Items</button>
+
+</body>
+
+</html>
